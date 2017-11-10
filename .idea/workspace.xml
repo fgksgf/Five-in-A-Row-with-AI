@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb149fa-72b9-46c7-9f97-9f6693fe8206" name="Default" comment="" />
+    <list default="true" id="ccb149fa-72b9-46c7-9f97-9f6693fe8206" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/field/Board.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/field/View.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/AIRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/FIR$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/FIR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/SortByGrade.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/piece/Piece.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/piece/PieceStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/piece/PieceStatus.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/field/Board.java" afterPath="$PROJECT_DIR$/src/field/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/field/View.java" afterPath="$PROJECT_DIR$/src/field/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/FIR.java" afterPath="$PROJECT_DIR$/src/game/FIR.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +48,8 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/field/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-779">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="62" />
+            <state relative-caret-position="1598">
+              <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#View#0;class#View#0" expanded="false" />
@@ -44,8 +60,6 @@
                 <element signature="method#initButtons#0;class#View#0" expanded="false" />
                 <element signature="docComment;method#initFrame#0;class#View#0" expanded="false" />
                 <element signature="method#initFrame#0;class#View#0" expanded="false" />
-                <element signature="e#3036#3451#0" expanded="true" />
-                <element signature="e#3450#3451#0" expanded="true" />
                 <element signature="docComment;method#initLabel#0;class#View#0" expanded="false" />
                 <element signature="method#initLabel#0;class#View#0" expanded="false" />
                 <element signature="method#initBoard#0;class#View#0" expanded="false" />
@@ -57,10 +71,13 @@
       <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/piece/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="703">
+              <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#Piece#0" expanded="false" />
+                <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+                <element signature="method#draw#0;class#Piece#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,19 +86,31 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/field/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <state relative-caret-position="1156">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#Board#0" expanded="false" />
                 <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
                 <element signature="method#clearAll#0;class#Board#0" expanded="false" />
                 <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+                <element signature="method#place#0;class#Board#0" expanded="false" />
                 <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
                 <element signature="method#canPlace#0;class#Board#0" expanded="false" />
                 <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
                 <element signature="method#checkFive#0;class#Board#0" expanded="false" />
                 <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-                <element signature="e#3633#3756#0" expanded="false" />
+                <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+                <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+                <element signature="method#paint#0;class#Board#0" expanded="false" />
+                <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+                <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+                <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+                <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+                <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+                <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+                <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+                <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -90,28 +119,47 @@
       <file leaf-file-name="FIR.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/FIR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="2788">
+              <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#FIR#0" expanded="false" />
                 <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
                 <element signature="method#check#0;class#FIR#0" expanded="false" />
                 <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-                <element signature="e#1973#3245#0" expanded="true" />
-                <element signature="e#3244#3245#0" expanded="true" />
+                <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+                <element signature="e#3189#4009#0" expanded="true" />
+                <element signature="e#4008#4009#0" expanded="true" />
+                <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+                <element signature="e#4616#5925#0" expanded="false" />
                 <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
                 <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+                <element signature="e#8610#8925#0" expanded="false" />
                 <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-                <element signature="class#Status#0" expanded="false" />
                 <element signature="method#reset#0;class#Status#0" expanded="false" />
+                <element signature="method#popPiece#0;class#Status#0" expanded="false" />
                 <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+                <element signature="e#10987#10988#0" expanded="true" />
+                <element signature="e#11016#11017#0" expanded="true" />
+                <element signature="e#11057#11058#0" expanded="true" />
+                <element signature="e#11086#11087#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,12 +200,12 @@
         <option value="$PROJECT_DIR$/src/game/Position.java" />
         <option value="$PROJECT_DIR$/src/game/AI.java" />
         <option value="$PROJECT_DIR$/src/field/PieceStatus.java" />
-        <option value="$PROJECT_DIR$/src/piece/PieceStatus.java" />
         <option value="$PROJECT_DIR$/src/game/AIRunnable.java" />
-        <option value="$PROJECT_DIR$/src/game/FIR.java" />
         <option value="$PROJECT_DIR$/src/piece/Piece.java" />
         <option value="$PROJECT_DIR$/src/field/View.java" />
         <option value="$PROJECT_DIR$/src/field/Board.java" />
+        <option value="$PROJECT_DIR$/src/piece/PieceStatus.java" />
+        <option value="$PROJECT_DIR$/src/game/FIR.java" />
       </list>
     </option>
   </component>
@@ -167,11 +215,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-3" />
+    <option name="y" value="46" />
     <option name="width" value="1934" />
-    <option name="height" value="1056" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,14 +279,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="field" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FIR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FIR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="piece" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,28 +576,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
+    <frame x="-11" y="35" width="1942" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02361275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28689492" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18196544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18196544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06455399" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.063754424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -590,7 +651,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="31" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -613,8 +674,6 @@
             <element signature="method#initButtons#0;class#View#0" expanded="false" />
             <element signature="docComment;method#initFrame#0;class#View#0" expanded="false" />
             <element signature="method#initFrame#0;class#View#0" expanded="false" />
-            <element signature="e#3036#3451#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
             <element signature="docComment;method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initBoard#0;class#View#0" expanded="false" />
@@ -636,6 +695,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,15 +708,27 @@
           <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,24 +738,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,8 +783,6 @@
             <element signature="method#initButtons#0;class#View#0" expanded="false" />
             <element signature="docComment;method#initFrame#0;class#View#0" expanded="false" />
             <element signature="method#initFrame#0;class#View#0" expanded="false" />
-            <element signature="e#3036#3451#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
             <element signature="docComment;method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initBoard#0;class#View#0" expanded="false" />
@@ -723,6 +804,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,15 +817,27 @@
           <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,24 +847,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,6 +892,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -797,15 +905,27 @@
           <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,24 +935,33 @@
         <state relative-caret-position="1209">
           <caret line="107" column="5" lean-forward="false" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,6 +980,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,15 +993,27 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,24 +1023,33 @@
         <state relative-caret-position="1209">
           <caret line="107" column="5" lean-forward="false" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -915,6 +1068,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,15 +1081,27 @@
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,24 +1111,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,6 +1156,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -989,15 +1169,27 @@
           <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1007,24 +1199,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1043,6 +1244,9 @@
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1053,15 +1257,27 @@
           <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,24 +1287,33 @@
         <state relative-caret-position="7059">
           <caret line="181" column="24" lean-forward="true" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1107,6 +1332,9 @@
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1117,15 +1345,27 @@
           <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1135,24 +1375,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1172,15 +1421,27 @@
           <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,24 +1451,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1219,36 +1489,17 @@
           <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Position.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/board.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image/board.jpg" />
     <entry file="file://$PROJECT_DIR$/src/game/AI.java" />
     <entry file="file://$PROJECT_DIR$/src/field/PieceStatus.java" />
-    <entry file="file://$PROJECT_DIR$/src/piece/PieceStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#421#422#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/AIRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3842">
@@ -1257,66 +1508,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/piece/PieceStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/FIR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="2788">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#check#0;class#FIR#0" expanded="false" />
             <element signature="method#check#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addMouseEvent#0;class#FIR#0" expanded="false" />
-            <element signature="e#1973#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="method#addMouseEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#3189#4009#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="docComment;method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addNewButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addUndoButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#4616#5925#0" expanded="false" />
             <element signature="docComment;method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addOptionButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addAboutButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="docComment;method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
             <element signature="method#addExitButtonEvent#0;class#FIR#0" expanded="false" />
+            <element signature="e#8610#8925#0" expanded="false" />
             <element signature="docComment;method#run#0;class#FIR#0" expanded="false" />
-            <element signature="class#Status#0" expanded="false" />
             <element signature="method#reset#0;class#Status#0" expanded="false" />
+            <element signature="method#popPiece#0;class#Status#0" expanded="false" />
             <element signature="method#getLastPiece#0;class#Status#0" expanded="false" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11016#11017#0" expanded="true" />
+            <element signature="e#11057#11058#0" expanded="true" />
+            <element signature="e#11086#11087#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/field/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="1156">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="method#clearAll#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#place#0;class#Board#0" expanded="false" />
+            <element signature="method#place#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="method#canPlace#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="method#checkFive#0;class#Board#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#Board#0" expanded="false" />
-            <element signature="e#3633#3756#0" expanded="false" />
+            <element signature="method#setLatestXY#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Board#0" expanded="false" />
+            <element signature="method#paint#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRow#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="method#checkColumn#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkLeftSlash#0;class#Board#0" expanded="false" />
+            <element signature="docComment;method#checkRightSlash#0;class#Board#0" expanded="false" />
+            <element signature="method#checkRightSlash#0;class#Board#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/piece/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="703">
+          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#Piece#0" expanded="false" />
+            <element signature="docComment;method#draw#0;class#Piece#0" expanded="false" />
+            <element signature="method#draw#0;class#Piece#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/field/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="1598">
+          <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#View#0;class#View#0" expanded="false" />
@@ -1327,8 +1618,6 @@
             <element signature="method#initButtons#0;class#View#0" expanded="false" />
             <element signature="docComment;method#initFrame#0;class#View#0" expanded="false" />
             <element signature="method#initFrame#0;class#View#0" expanded="false" />
-            <element signature="e#3036#3451#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
             <element signature="docComment;method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initLabel#0;class#View#0" expanded="false" />
             <element signature="method#initBoard#0;class#View#0" expanded="false" />

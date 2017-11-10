@@ -32,6 +32,10 @@ public class Board extends JPanel {
     }
 
     public Board() {
+        initBoard();
+    }
+
+    public void initBoard() {
         latestX = -1000;
         latestY = -1000;
         clearAll();
@@ -79,26 +83,9 @@ public class Board extends JPanel {
      */
     public boolean checkFive(Piece _piece) {
         boolean ret = false;
-//        checkX(_piece);
-//        checkY(_piece);
-//        checkZL(_piece);
-//        checkZR(_piece);
-
-//        if (_piece.getColor()) {
-//            if (_piece.getStatus().getCountX1() >= 5
-//                    || _piece.getStatus().getCountY1() >= 5
-//                    || _piece.getStatus().getCountZL1() >= 5
-//                    || _piece.getStatus().getCountZR1() >= 5) {
-//                ret = true;
-//            }
-//        } else {
-//            if (_piece.getStatus().getCountX2() >= 5
-//                    || _piece.getStatus().getCountY2() >= 5
-//                    || _piece.getStatus().getCountZL2() >= 5
-//                    || _piece.getStatus().getCountZR2() >= 5) {
-//                ret = true;
-//            }
-//        }
+        if (checkRow(_piece) || checkColumn(_piece) || checkLeftSlash(_piece) || checkRightSlash(_piece)) {
+            ret = true;
+        }
         return ret;
     }
 
@@ -107,6 +94,11 @@ public class Board extends JPanel {
      */
     public void clear(int x, int y) {
         pieces[x][y] = null;
+    }
+
+    public void setLatestXY(int x, int y) {
+        latestX = x;
+        latestY = y;
     }
 
     /**
@@ -130,223 +122,163 @@ public class Board extends JPanel {
         g.drawString("+", latestX * DISTANCE + START_X - 7, latestY * DISTANCE + START_Y + 7);
     }
 
-    //TODO: perfect four check algorithms
+    /**
+     * Check if there are five chess pieces with the same color as the _piece in the ROW where _piece is
+     * then return the result: true or false
+     */
+    public boolean checkRow(Piece _piece) {
+        boolean result = false;
+        int count = 1;
+        int x = _piece.getX();
+        int y = _piece.getY();
+
+        // Count the number of pieces have the same color with _piece on the left of _piece
+        if (x - 1 > 0) {
+            for (int i = x - 1; i >= 0; --i) {
+                Piece p = pieces[i][y];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        // Count the number of pieces have the same color with _piece on the right of _piece
+        if (x + 1 < 15) {
+            for (int i = x + 1; i < 15; ++i) {
+                Piece p = pieces[i][y];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        if (count >= 5) {
+            result = true;
+        }
+        return result;
+    }
 
     /**
-     * Count the mount of the pieces with the same x,
-     * calculate both the same color and different color.
+     * Check if there are five chess pieces with the same color as the _piece in the COLUMN where _piece is
+     * then return the result: true or false
      */
-//    public void checkX(Piece _piece) {
-//        int countX1 = 1;
-//        int countX2 = 1;
-//        boolean obstruct1 = false;
-//        boolean obstruct2 = false;
-//        int x = _piece.getX();
-//        int y = _piece.getY();
-//
-//        if (y - 1 > 0) {
-//            for (int j = y - 1; j >= 0; --j) {
-//                Piece piece = pieces[x][j];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countX1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countX2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//
-//        if (y + 1 < 15 && (countX1 < 5 || countX2 < 5)) {
-//            for (int j = y + 1; j < 15; ++j) {
-//                Piece piece = pieces[x][j];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countX1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countX2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//
-//        _piece.getStatus().setCountX1(countX1);
-//        _piece.getStatus().setCountX2(countX2);
-//        _piece.getStatus().setObstruct1(obstruct1);
-//        _piece.getStatus().setObstruct2(obstruct2);
-//    }
-//
-//    /**
-//     * Count the mount of the pieces with the same x,
-//     * calculate both the same color and different color.
-//     */
-//    public void checkY(Piece _piece) {
-//        int countY1 = 1;
-//        int countY2 = 1;
-//        boolean obstruct1 = false;
-//        boolean obstruct2 = false;
-//        int x = _piece.getX();
-//        int y = _piece.getY();
-//
-//        if (x - 1 > 0) {
-//            for (int i = x - 1; i >= 0; --i) {
-//                Piece piece = pieces[i][y];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countY1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countY2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//        if (x + 1 < 15 && (countY1 < 5 || countY2 < 5)) {
-//            for (int i = x + 1; i < 15; ++i) {
-//                Piece piece = pieces[i][y];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countY1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countY2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//
-//        _piece.getStatus().setCountY1(countY1);
-//        _piece.getStatus().setCountY2(countY2);
-//        _piece.getStatus().setObstruct1(obstruct1);
-//        _piece.getStatus().setObstruct2(obstruct2);
-//    }
-//
-//    /**
-//     * Count the mount of the pieces with the same color
-//     * and the same left oblique.
-//     */
-//    public void checkZL(Piece _piece) {
-//        int countZL1 = 1;
-//        int countZL2 = 1;
-//        boolean obstruct1 = false;
-//        boolean obstruct2 = false;
-//        int x = _piece.getX();
-//        int y = _piece.getY();
-//
-//        for (int i = 1; i < 15; ++i) {
-//            if (x - i > 0 && y - i > 0) {
-//                Piece piece = pieces[x - i][y - i];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countZL1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countZL2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            } else {
-//                break;
-//            }
-//        }
-//
-//        if (countZL1 < 5 || countZL2 < 5) {
-//            for (int i = 1; i < 15; ++i) {
-//                if (x + i < 15 && y + i < 15) {
-//                    Piece piece = pieces[x + i][y + i];
-//                    if (piece != null) {
-//                        if (piece.getColor() && !obstruct1) {
-//                            countZL1++;
-//                            obstruct2 = true;
-//                        } else if (!piece.getColor() && !obstruct2) {
-//                            countZL2++;
-//                            obstruct1 = true;
-//                        }
-//                    } else {
-//                        break;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//
-//        _piece.getStatus().setCountZL1(countZL1);
-//        _piece.getStatus().setCountZL2(countZL2);
-//        _piece.getStatus().setObstruct1(obstruct1);
-//        _piece.getStatus().setObstruct2(obstruct2);
-//    }
-//
-//    /**
-//     * Count the mount of the pieces with the same color
-//     * and the same right oblique.
-//     */
-//    public void checkZR(Piece _piece) {
-//        int countZR1 = 1;
-//        int countZR2 = 1;
-//        boolean obstruct1 = false;
-//        boolean obstruct2 = false;
-//        int x = _piece.getX();
-//        int y = _piece.getY();
-//
-//        for (int i = 1; i < 15; ++i) {
-//            if (x + i < 15 && y - i > 0) {
-//                Piece piece = pieces[x + i][y - i];
-//                if (piece != null) {
-//                    if (piece.getColor() && !obstruct1) {
-//                        countZR1++;
-//                        obstruct2 = true;
-//                    } else if (!piece.getColor() && !obstruct2) {
-//                        countZR2++;
-//                        obstruct1 = true;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            } else {
-//                break;
-//            }
-//        }
-//        if (countZR1 < 5 || countZR2 < 5) {
-//            for (int i = 1; i < 15; ++i) {
-//                if (x - i > 0 && y + i < 15) {
-//                    Piece piece = pieces[x - i][y + i];
-//                    if (piece != null) {
-//                        if (piece.getColor()) {
-//                            countZR1++;
-//                            obstruct2 = true;
-//                        } else {
-//                            countZR2++;
-//                            obstruct1 = true;
-//                        }
-//                    } else {
-//                        break;
-//                    }
-//                } else {
-//                    break;
-//                }
-//            }
-//        }
-//
-//        _piece.getStatus().setCountZR1(countZR1);
-//        _piece.getStatus().setCountZR2(countZR2);
-//        _piece.getStatus().setObstruct1(obstruct1);
-//        _piece.getStatus().setObstruct2(obstruct2);
-//    }
+    public boolean checkColumn(Piece _piece) {
+        boolean result = false;
+        int count = 1;
+        int x = _piece.getX();
+        int y = _piece.getY();
+
+        // Count the number of pieces have the same color with _piece on the top of _piece
+        if (y - 1 > 0) {
+            for (int j = y - 1; j >= 0; --j) {
+                Piece p = pieces[x][j];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        // Count the number of pieces have the same color with _piece on the bottom of _piece
+        if (y + 1 < 15) {
+            for (int j = y + 1; j < 15; ++j) {
+                Piece p = pieces[x][j];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        if (count >= 5) {
+            result = true;
+        }
+        return result;
+    }
+
+    /**
+     * Check if there are five chess pieces with the same color as the _piece in the SLASH where _piece is
+     * The SLASH's direction is from the UPPER LEFT corner to the LOWER RIGHT corner
+     */
+    public boolean checkLeftSlash(Piece _piece) {
+        boolean result = false;
+        int count = 1;
+        int x = _piece.getX();
+        int y = _piece.getY();
+
+        // Count the number of pieces have the same color with _piece on the UPPER LEFT corner of _piece
+        for (int i = 1; i < 15; ++i) {
+            if (x - i >= 0 && y - i >= 0) {
+                Piece p = pieces[x - i][y - i];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        // Count the number of pieces have the same color with _piece on the LOWER RIGHT corner of _piece
+        for (int i = 1; i < 15; ++i) {
+            if (x + i < 15 && y + i < 15) {
+                Piece p = pieces[x + i][y + i];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        if (count >= 5) {
+            result = true;
+        }
+        return result;
+    }
+
+    /**
+     * Check if there are five chess pieces with the same color as the _piece in the SLASH where _piece is
+     * The SLASH's direction is from the UPPER RIGHT corner to the LOWER LEFT corner
+     */
+    public boolean checkRightSlash(Piece _piece) {
+        boolean result = false;
+        int count = 1;
+        int x = _piece.getX();
+        int y = _piece.getY();
+
+        // Count the number of pieces have the same color with _piece on the UPPER RIGHT corner of _piece
+        for (int i = 1; i < 15; ++i) {
+            if (x + i < 15 && y - i >= 0) {
+                Piece p = pieces[x + i][y - i];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        // Count the number of pieces have the same color with _piece on the LOWER LEFT corner of _piece
+        for (int i = 1; i < 15; ++i) {
+            if (x - i >= 0 && y + i < 15) {
+                Piece p = pieces[x - i][y + i];
+                if (p != null && p.getColor() == _piece.getColor()) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+        }
+
+        if (count >= 5) {
+            result = true;
+        }
+        return result;
+    }
 }

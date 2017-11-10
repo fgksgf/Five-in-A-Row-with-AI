@@ -105,8 +105,9 @@ public class View {
             @Override
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
-                int ch = JOptionPane.showConfirmDialog(null,"Are you sure to exit ?",
-                        "Prompt",JOptionPane.YES_NO_OPTION);
+                JLabel msg = new JLabel("<html><h1>Are you sure to exit ?</h1></html>");
+                int ch = JOptionPane.showConfirmDialog(null, msg,
+                        "Prompt", JOptionPane.YES_NO_OPTION);
                 if (ch == JOptionPane.YES_OPTION) {
                     System.exit(0);
                 }
